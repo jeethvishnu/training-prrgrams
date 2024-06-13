@@ -7,7 +7,9 @@ NumPy provides aggregate functions that operate over the entire array
 or along a specific axis.
 
 '''
+import numpy as np
 
+array1 = np.array([1,2,3,4,5,6])
 # Adding a scalar to an array
 print("Adding 10 to each element:", array1 + 10)
 

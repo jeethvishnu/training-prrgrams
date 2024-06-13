@@ -1,3 +1,5 @@
+import numpy as np
+
 '''
 Built-in Functions
 arange: Similar to Python's range() but returns a NumPy array.
@@ -18,4 +20,4 @@ print("Array of ones:\n", array_ones)
 array_zeros = np.zeros((2, 3))
 print("Array of zeros:\n", array_zeros)
 
-'''
+
